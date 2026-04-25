@@ -2,7 +2,7 @@
   <div class="mail-login">
     <input
       v-model="mailAddress" :class="[isMobile ? 'input-mobile' : 'input']" :placeholder="t('Email address')"
-      enterkeyhint="complete"
+      enterkeyhint="done"
     >
     <div class="area-container">
       <svg-icon :icon="MailIcon"></svg-icon>
