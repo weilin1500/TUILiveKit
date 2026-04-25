@@ -4,7 +4,7 @@
       v-model="phoneNumber"
       :class="[isMobile ? 'input-mobile' : 'input']"
       :placeholder="t('Mobile number')" auto-complete="true"
-      enterkeyhint="complete"
+      enterkeyhint="done"
     >
     <div class="area-container">
       <svg-icon :icon="PhoneIcon"></svg-icon>

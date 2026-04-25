@@ -4,7 +4,7 @@
       v-model="verifyStates.verifyCode"
       :class="[isMobile ? 'input-mobile': 'input']"
       :placeholder="t('Verification code')"
-      enterkeyhint="complete"
+      enterkeyhint="done"
     >
     <div class="area-container">
       <svg-icon :icon="VerifyIcon"></svg-icon>
